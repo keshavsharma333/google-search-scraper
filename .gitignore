@@ -1,0 +1,32 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore configuration or sensitive data files
+config.py
+.env
+
+# Ignore data files or outputs
+*.csv
+data/
+
+# Ignore logs and debug files
+*.log
+*.tmp
+
+# Ignore browser drivers and caches
+webdriver/
+webdriver_cache/
+
+scraper-env/
